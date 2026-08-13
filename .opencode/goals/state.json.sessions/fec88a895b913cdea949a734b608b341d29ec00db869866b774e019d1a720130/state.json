@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "goals": [],
+  "results": [
+    {
+      "condition": "Naprawic deklarowany sprawdzian przez dodanie dzialajacych targetow make build i make test, bez rozszerzania zakresu produktu, oraz zweryfikowac profil smoke/ci/hardware.",
+      "state": "achieved",
+      "reason": "",
+      "evidence": "Dodano targety make build i make test. Potwierdzono powodzenie make build, make test, make smoke, make ci i make hardware; git diff --check bez uwag.",
+      "blockedReason": "",
+      "turnCount": 0,
+      "totalTokens": 15423,
+      "usage": {
+        "input": 29949,
+        "output": 1204,
+        "reasoning": 265,
+        "cacheRead": 76288,
+        "cacheWrite": 0,
+        "cost": 0,
+        "costKnown": true
+      },
+      "startedAt": 1786605504224,
+      "finishedAt": 1786605548509,
+      "lastStatus": "Goal completed.",
+      "lastCheckpoint": null,
+      "checkpoints": [],
+      "history": [
+        {
+          "type": "set",
+          "detail": "Goal created via agent tool with limits: 20 auto-continues, 900s, 10,000 context tokens.",
+          "timestamp": 1786605504225
+        },
+        {
+          "type": "completed",
+          "detail": "Marked complete via tool: Dodano targety make build i make test. Potwierdzono powodzenie make build, make test, make smoke, make ci i make hardware; git diff --check bez uwag.",
+          "timestamp": 1786605548509
+        }
+      ],
+      "sessionID": "ses_006039a12ffe3c4Y9L6Ea7DkqR"
+    }
+  ],
+  "archives": [
+    {
+      "sessionID": "ses_006039a12ffe3c4Y9L6Ea7DkqR",
+      "results": [
+        {
+          "condition": "Naprawic deklarowany sprawdzian przez dodanie dzialajacych targetow make build i make test, bez rozszerzania zakresu produktu, oraz zweryfikowac profil smoke/ci/hardware.",
+          "state": "achieved",
+          "reason": "",
+          "evidence": "Dodano targety make build i make test. Potwierdzono powodzenie make build, make test, make smoke, make ci i make hardware; git diff --check bez uwag.",
+          "blockedReason": "",
+          "turnCount": 0,
+          "totalTokens": 15423,
+          "usage": {
+            "input": 29949,
+            "output": 1204,
+            "reasoning": 265,
+            "cacheRead": 76288,
+            "cacheWrite": 0,
+            "cost": 0,
+            "costKnown": true
+          },
+          "startedAt": 1786605504224,
+          "finishedAt": 1786605548509,
+          "lastStatus": "Goal completed.",
+          "lastCheckpoint": null,
+          "checkpoints": [],
+          "history": [
+            {
+              "type": "set",
+              "detail": "Goal created via agent tool with limits: 20 auto-continues, 900s, 10,000 context tokens.",
+              "timestamp": 1786605504225
+            },
+            {
+              "type": "completed",
+              "detail": "Marked complete via tool: Dodano targety make build i make test. Potwierdzono powodzenie make build, make test, make smoke, make ci i make hardware; git diff --check bez uwag.",
+              "timestamp": 1786605548509
+            }
+          ],
+          "sessionID": "ses_006039a12ffe3c4Y9L6Ea7DkqR"
+        }
+      ]
+    }
+  ],
+  "orderedSessions": []
+}

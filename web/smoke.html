@@ -1,0 +1,14 @@
+<!doctype html>
+<meta charset="utf-8">
+<output id="result">running</output>
+<script>
+  function verify(app) {
+    const documentInApp = app.contentDocument;
+    const gpu = documentInApp.querySelector("#gpu");
+    gpu.value = "rtx-4070-super";
+    gpu.dispatchEvent(new Event("change"));
+    const values = ["total", "power", "power-status"].map((id) => documentInApp.querySelector(`[data-testid=${id}]`).textContent);
+    document.querySelector("#result").textContent = values.join(" | ");
+  }
+</script>
+<iframe id="app" src="/" onload="verify(this)"></iframe>

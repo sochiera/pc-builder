@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PC Skladacz</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">KONFIGURATOR PC</p>
+      <h1>Zloz pierwszy zestaw</h1>
+      <p class="intro">Wybierz procesor i karte graficzna. Podsumowanie aktualizuje sie od razu.</p>
+      <section class="picker" aria-label="Komponenty">
+        <label for="cpu">Procesor</label>
+        <select id="cpu" data-testid="cpu-select"></select>
+        <label for="gpu">Karta graficzna</label>
+        <select id="gpu" data-testid="gpu-select"></select>
+      </section>
+      <section class="summary" aria-live="polite">
+        <p>Szacowany koszt <strong id="total" data-testid="total"></strong></p>
+        <p>Pobor zestawu <strong id="power" data-testid="power"></strong></p>
+        <p id="status" data-testid="power-status"></p>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
